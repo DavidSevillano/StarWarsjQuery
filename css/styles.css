@@ -1,0 +1,113 @@
+body {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.navbar-brand img {
+    width: 120px;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border: none;
+    max-width: 250px;
+}
+
+.card-title {
+    position: absolute; 
+    top: -20px; 
+    left: 0; 
+    font-size: 1.5rem; 
+    color: white; 
+}
+
+
+.pagination .page-link {
+    color: #fff;
+    background-color: #3a3a3a;
+    border-color: #3a3a3a;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.nav-link img {
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar-dark .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.span-text {
+    color: rgb(255, 255, 255);
+}
+
+#pagina-actual {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-bottom: 2px;
+}
+
+.navbar {
+    padding: 10px 20px;
+    height: 80px;
+    background-color: #000;
+}
+
+.navbar-nav a img {
+    width: 50px; 
+}
+
+#logo {
+    margin-left: 2em;
+}
+
+#number{
+    margin-right: 3.5em;
+}
+
+
+#Filtro-home{
+    margin-top: 1.9em;
+    margin-right: 3.4em;
+}
+
+.pokemon-details {
+    background-color: #444444; 
+    border-radius: 15px; 
+    padding: 20px; 
+    width: 100%;
+    color: #d4d4d4; 
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.text-secondary {
+    font-size: 1rem;
+}
+
+.card-text {
+    margin-bottom: 1.5rem;
+}
+
+
+.pkm-card {
+    background-color: #d6d6d6;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+
+.pkm-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STAR WARS</title>
+    <title>People details</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -35,39 +35,17 @@
         </nav>
     </header>
 
-    <main class="container mt-4">
-        <div class="d-flex justify-content-between align-items-center custom-margin">
-            <div>
-                <label for="search" class="form-label">Nombre:</label>
-                <input type="text" class="form-control" id="search" placeholder="Buscar Pokémon...">
-            </div>
-            <div id="Filtro-home">
-                <select class="form-select">
-                    <option>Ordenar por</option>
-                    <option>Número inferior</option>
-                    <option>Número superior</option>
-                </select>
-            </div>
-        </div>
-        
+    <main>
+
         <div class="container-fluid">
-            <div class="row" id="ListaPersonajesSW">
-            </div>
+            <div class="row" id="PeopleDetail"></div>
         </div>
-    
-        <nav aria-label="Page navigation example" class="mt-4">
-            <ul class="pagination justify-content-center">
-                <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                <li class="page-item"><a class="page-link" href="#">...</a></li>
-            </ul>
-        </nav>
+
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="../js/IndexSW.js"></script>
+    <script src="../js/detail.js"></script>
+    
 </body>
 </html>
