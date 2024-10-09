@@ -8,7 +8,7 @@ body {
 }
 
 .card {
-    background-color: #3a3a3a;
+    background-color: #f0f0f0;
     border: none;
     max-width: 250px;
 }
@@ -70,89 +70,6 @@ body {
     margin-right: 3.5em;
 }
 
-.normal-box, .fire-box, .water-box, .grass-box, .electric-box, .ice-box, .fighting-box, .ground-box, .poison-box, .flying-box, .psychic-box, .bug-box, .rock-box, .ghost-box, .dragon-box, .dark-box, .steel-box, .fairy-box{
-    padding: 5px 10px;
-    width: 85px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    -webkit-text-stroke: 1px black;
-    border-radius: 15px;
-    border: 1px black;
-    
-}
-
-.normal-box {
-    background-color: #bebdbd;
-}
-
-.fire-box {
-    background-color: #f80909;
-}
-
-.water-box {
-    background-color: #2196f3;
-}
-
-.grass-box {
-    background-color: #02e727;
-}
-
-.electric-box {
-    background-color: #faca2d;
-}
-
-.ice-box {
-    background-color: #8fcdff;
-}
-
-.fighting-box {
-    background-color: #493027;
-}
-
-.ground-box {
-    background-color: #795548;
-}
-
-.poison-box {
-    background-color: rgb(77, 12, 97);
-}
-
-.flying-box {
-    background-color: #667dad;
-}
-
-.psychic-box {
-    background-color: #db4a8e;
-}
-
-.bug-box {
-    background-color: #89b15c;
-}
-
-.rock-box {
-    background-color: #c9a181;
-}
-
-.ghost-box {
-    background-color: #4c4688;
-}
-
-.dragon-box {
-    background-color: #5a52a1;
-}
-
-.dark-box {
-    background-color: #27211f;
-}
-
-.steel-box {
-    background-color: #bbbbbb;
-}
-
-.fairy-box {
-    background-color: #dfa2d4;
-}
 
 #Filtro-home{
     margin-top: 1.9em;
@@ -180,21 +97,6 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.evolution-box {
-    width: 250px;
-    height: 250px;
-    background-color: #7f7f7f;
-    border-radius: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.evolution-box img {
-    max-width: 100%; 
-    height: auto;
-}
 
 .pkm-card {
     background-color: #d6d6d6;
