@@ -1,12 +1,15 @@
 $(document).ready(function () {
+
     getPersonajes();
 
     function getPersonajes() {
+      
         $.ajax({
             url: "https://swapi.dev/api/people", 
             method: "GET",
         }).done(function (resp) {
             $("#ListaPersonajesSW").html("");
+
             var listadoPersonajes = resp.results;
             
             listadoPersonajes.forEach(function (people) {
@@ -32,4 +35,5 @@ $(document).ready(function () {
                 });
             });
         }
+
 });
