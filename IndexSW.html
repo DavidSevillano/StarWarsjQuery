@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg py-1">
+            <div class="container-fluid">
+                <img id="logo" src="img/logo.png" alt="Pokemon Logo" width="200">
+                <div class="navbar-nav me-auto d-flex justify-content-center w-100">
+                    <a class="nav-link d-flex flex-column align-items-center mx-5" href="#">
+                        <img src="img/home.png" alt="Home" width="40">
+                        <span class="span-text">Home</span>
+                    </a>
+                    <a class="nav-link d-flex flex-column align-items-center mx-5" href="#">
+                        <img src="img/pokedex.png" alt="Pokedex" width="40">
+                        <span id="pagina-actual" class="span-text">Pokedex</span>
+                    </a>
+                    <a class="nav-link d-flex flex-column align-items-center mx-5" href="#">
+                        <img src="img/bayas.png" alt="Bayas" width="40">
+                        <span class="span-text">Bayas</span>
+                    </a>
+                    <a class="nav-link d-flex flex-column align-items-center mx-5" href="#">
+                        <img src="img/movimientos.png" alt="Movimientos" width="40">
+                        <span class="span-text">Movimientos</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        <div class="d-flex justify-content-between align-items-center custom-margin">
+            <div>
+                <label for="search" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="search" placeholder="Buscar Pokémon...">
+            </div>
+            <div id="Filtro-home">
+                <select class="form-select">
+                    <option>Ordenar por</option>
+                    <option>Número inferior</option>
+                    <option>Número superior</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row" id="ListaPokemon">
+            </div>
+        </div>
+    
+        <nav aria-label="Page navigation example" class="mt-4">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">...</a></li>
+            </ul>
+        </nav>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="pokedex.js"></script>
+</body>
+</html>
