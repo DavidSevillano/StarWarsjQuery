@@ -33,9 +33,6 @@ $(document).ready(function () {
                         <div class="col-md-8 mx-auto">
                             <h1 class="mb-3 text-center">${peopleDetail.name.charAt(0).toUpperCase() + peopleDetail.name.slice(1)} <small>N.º ${peopleDetail.id}</small></h1>
                             <div class="d-flex align-items-center">
-                                <div class="pkm-card col-md-4 me-auto">
-                                    <img src="${peopleDetail.sprites.front_default}" alt="${peopleDetail.name}" class="pkm-img" style="max-width: 100%;">
-                                </div>
                                 <div class="col-md-8">
                                     <p>${peopleDetail.description}</p>
                                     <div class="pokemon-details p-3">
@@ -56,13 +53,6 @@ $(document).ready(function () {
                                             </div>
                                         </div>
                                     </div>
-
-                                    <div class="row">
-                                        <div class="col-md-6 mt-5">
-                                            <h5>Tipo</h5>
-                                            ${types}
-                                        </div>
-
                                         <div class="col-md-6 mt-5">
                                             <div id="weaknesses"> </div>
                                         </div>
